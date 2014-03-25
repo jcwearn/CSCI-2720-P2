@@ -14,7 +14,7 @@ class t3solver {
     TreeNode *pos_6;
     TreeNode *pos_7;
     TreeNode *pos_8;
-  }//struct TreeNode
+  };//struct TreeNode
 
   TreeNode * root;
   TreeNode * temp;
