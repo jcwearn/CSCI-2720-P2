@@ -5,17 +5,31 @@ class t3solver {
  public:
   struct TreeNode {
     string board;
-    TreeNode *pos_0;
-    TreeNode *pos_1;
-    TreeNode *pos_2;
-    TreeNode *pos_3;
-    TreeNode *pos_4;
-    TreeNode *pos_5;
-    TreeNode *pos_6;
-    TreeNode *pos_7;
-    TreeNode *pos_8;
+    TreeNode *child_0;
+    TreeNode *child_1;
+    TreeNode *child_2;
+    TreeNode *child_3;
+    TreeNode *child_4;
+    TreeNode *child_5;
+    TreeNode *child_6;
+    TreeNode *child_7;
+    TreeNode *child_8;
   };//struct TreeNode
 
   TreeNode * root;
   TreeNode * temp;
+  TreeNode * new_node;
+
+  t3solver(string board) {
+    root = new TreeNode;
+    root->board = board;
+    new_node = root;
+    temp = root;
+  }
+
+  ~t3solver() {
+    
+  }
+
+  void add_node(string);
 };//t3solver
