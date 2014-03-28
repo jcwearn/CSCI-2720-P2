@@ -1,6 +1,6 @@
 compile:
-	g++ -Wall -o t3solver driver.cpp t3solver.cpp -o t3solver
+	g++ -Wall Tree.cpp
 clean:
-	rm t3solver
+	rm a.out
 run:
-	./t3solver
+	./a.out

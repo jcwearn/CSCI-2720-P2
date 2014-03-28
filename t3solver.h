@@ -31,5 +31,4 @@ class t3solver {
     
   }
 
-  void add_node(string);
 };//t3solver
